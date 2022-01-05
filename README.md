@@ -7,7 +7,7 @@ Requires root.
 
 Installation
 ------------
-This should be downloadadble in Homebrew Channel. Otherwise, there's an `ipk` in
+This should be downloadable in Homebrew Channel. Otherwise, there's an `ipk` in
 GitHub releases to the right. You are on your own here.
 
 Acknowledgments
