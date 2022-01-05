@@ -1,11 +1,38 @@
 {
-  "name": "org.webosbrew.custom-screensaver",
-  "version": "1.0.0",
-  "description": "custom-screensaver",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT"
+    "name": "org.webosbrew.custom-screensaver",
+    "version": "1.0.0",
+    "main": "frontend/index.js",
+    "moduleDir": "frontend",
+    "scripts": {
+        "build": "enyo pack",
+        "package": "ares-package dist/ -e enyo-ilib",
+        "manifest": "tools/gen-manifest.js ${npm_package_name}.manifest.json",
+        "deploy": "ares-install ${npm_package_name}_${npm_package_version}_all.ipk",
+        "launch": "ares-launch ${npm_package_name}",
+        "clean": "rm -rf dist/"
+    },
+    "assets": [
+        "appinfo.json",
+        "assets/**/*.*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webosbrew/custom-screensaver"
+    },
+    "styles": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@webosose/ares-cli": "^2.2.0",
+        "enyo-dev": "^1.0.0"
+    },
+    "dependencies": {
+        "dompurify": "^2.3.4",
+        "enyo-ilib": "git+https://github.com/jaycanuck/enyo-ilib.git",
+        "enyo-webos": "git+https://github.com/enyojs/enyo-webos.git",
+        "layout": "git+https://github.com/enyojs/layout.git",
+        "moonstone": "git+https://github.com/enyojs/moonstone.git",
+        "spotlight": "git+https://github.com/enyojs/spotlight.git",
+        "svg": "git+https://github.com/enyojs/svg.git"
+    }
 }
