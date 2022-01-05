@@ -2,6 +2,7 @@
 
 const crypto = require('crypto');
 const fs = require('fs');
+const url = require('url');
 
 const outfile = process.argv[2];
 const packageinfo = JSON.parse(fs.readFileSync('package.json'));
