@@ -5,6 +5,13 @@ Probably the only custom screensaver you'll ever need on webOS TV.
 
 Requires root.
 
+Features
+--------
+
+* Autostart registration
+* Temporary apply
+* Launch screensaver immediately for testing
+
 Installation
 ------------
 This should be downloadable in Homebrew Channel. Otherwise, there's an `ipk` in
