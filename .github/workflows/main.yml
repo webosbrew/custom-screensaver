@@ -32,3 +32,8 @@ jobs:
     - run: npm ci
     - run: npm run build -- --production
     - run: npm run package
+    - name: 'Upload Artifact'
+      uses: actions/upload-artifact@v3
+      with:
+        name: zipped_ipk
+        path: ${{github.workspace}}/*.ipk 
