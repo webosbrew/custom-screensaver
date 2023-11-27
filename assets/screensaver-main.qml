@@ -1,5 +1,5 @@
 /*
- * Nostalgia screensaver.
+ * Apple Aerial screensaver.
  *
  * Usage:
  *   mount --bind ./screensaver-main.qml /usr/palm/applications/com.webos.app.screensaver/qml/main.qml
