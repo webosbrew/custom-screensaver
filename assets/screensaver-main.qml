@@ -7,10 +7,12 @@
  * Test launch (no way to trigger on "No signal" screen)
  *   luna-send -n 1 'luna://com.webos.service.tvpower/power/turnOnScreenSaver' '{}'
  */
-import QtQuick 2.15
+import QtQuick 2.4
+import Eos.Window 0.1
 import QtQuick.Controls 2.15
 import QtQuick.XmlListModel 2.15
 import QtMultimedia 5.15
+import QtQuick.Window 2.2
 
 WebOSWindow {
     id: window
