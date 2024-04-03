@@ -18,7 +18,7 @@ var linkPath = "/var/lib/webosbrew/init.d/50-custom-screensaver-aerial";
 module.exports = kind({
   name: 'MainPanel',
   kind: Panel,
-  title: 'webOS Custom Screensaver',
+  title: 'webOS Aerial Screensaver',
   titleBelow: "webosbrew.org",
   headerType: 'medium',
   components: [
