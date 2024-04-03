@@ -1,6 +1,6 @@
 {
-    "name": "org.webosbrew.custom-screensaver",
-    "version": "1.0.1",
+    "name": "org.webosbrew.custom-screensaver-aerial",
+    "version": "1.0.0",
     "main": "frontend/index.js",
     "moduleDir": "frontend",
     "scripts": {
@@ -18,7 +18,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/webosbrew/custom-screensaver"
+        "url": "https://github.com/aabytt/webos-aerial-screensaver"
     },
     "styles": [],
     "author": "",
