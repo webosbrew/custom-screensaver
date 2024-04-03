@@ -1,6 +1,6 @@
 {
-    "id": "org.webosbrew.custom-screensaver",
-    "version": "1.0.1",
+    "id": "org.webosbrew.custom-screensaver-aerial",
+    "version": "1.0.0",
     "vendor": "webosbrew.org",
     "title": "Custom Screensaver",
     "icon": "assets/icon80.png",
@@ -8,5 +8,5 @@
     "main": "index.html",
     "iconColor": "#ffffff",
     "type": "web",
-    "appDescription": "The last custom webOS Screensaver you will ever need"
+    "appDescription": "Aerial custom webOS Screensaver"
 }
