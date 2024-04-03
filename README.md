@@ -1,5 +1,4 @@
-Aerial webOS screensaver
-fork of [custom-screensaver](https://github.com/webosbrew/custom-screensaver) 
+Aerial webOS screensaver (fork of [custom-screensaver](https://github.com/webosbrew/custom-screensaver))
 ==================
 
 Requires root.
