@@ -18,7 +18,7 @@ fs.writeFileSync(
     type: appinfo.type,
     title: appinfo.title,
     appDescription: appinfo.appDescription,
-    iconUri: `https://raw.githubusercontent.com/${url.parse(packageinfo.repository.url).path.substring(1)}/main/assets/icon160.png`,
+    iconUri: `https://raw.githubusercontent.com/${url.parse(packageinfo.repository.url).path.substring(1)}/main/assets/icon130.png`,
     sourceUrl: packageinfo.repository.url,
     rootRequired: true,
     ipkUrl: ipkfile,
