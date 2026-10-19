@@ -33,6 +33,10 @@ module.exports = kind({
               {kind: BodyText, style: 'margin: 10px 0', content: 'This will only enable custom screensaver until a reboot'},
             ], ontap: "temporaryApply"},
             {kind: Item, content: 'Test run screensaver', ontap: "testRun"},
+            {kind: Item, components: [
+              {kind: Marquee.Text, content: 'Restore stock screensaver'},
+              {kind: BodyText, style: 'margin: 10px 0', content: 'Unmounts the custom screensaver; the stock one returns immediately'},
+            ], ontap: "restoreStock"},
           ]},
         ]},
       ]},
@@ -59,7 +63,11 @@ module.exports = kind({
   },
 
   temporaryApply: function (command) {
-    this.exec(applyPath); 
+    this.exec(applyPath);
+  },
+
+  restoreStock: function (command) {
+    this.exec(applyPath + ' remove');
   },
 
   exec: function (command) {
